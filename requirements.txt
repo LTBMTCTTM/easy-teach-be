@@ -1,0 +1,5 @@
+Django
+psycopg2-binary>=2.8.6
+djangorestframework
+markdown
+django-filter
