@@ -20,9 +20,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        python3 -m pip install --upgrade pip
+        pip3 install -r requirements.txt
 
     - name: Run tests
       run: |
-        python manage.py test
+        python3 easy_teaching_api/manage.py test
